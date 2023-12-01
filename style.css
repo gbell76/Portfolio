@@ -1,0 +1,50 @@
+header{
+    background-image: url(https://images.unsplash.com/photo-1589306962951-b3da28bfdfac?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul{
+    padding: 0 0 0 0;
+}
+
+header ul li{
+    display: none;
+}
+
+body section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+body section img, body section p{
+    width: 400px;
+    margin: auto;
+}
+
+body section p{
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 900px){
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    .main section{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    header nav button{
+        display: none;
+    }
+
+    header ul{
+        /*Display not none*/
+    }
+}

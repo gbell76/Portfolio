@@ -5,6 +5,7 @@ header{
 header nav{
     display: flex;
     justify-content: flex-end;
+    margin: auto;
 }
 
 header ul{
@@ -15,18 +16,23 @@ header ul li{
     display: none;
 }
 
-body section{
+body div section img, body div section p{
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+
+.main section{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
 
-body section img, body section p{
-    width: 400px;
+.main section img, .main section p{
     margin: auto;
 }
 
-body section p{
+.main section p{
     margin-top: 5px;
 }
 
@@ -44,7 +50,7 @@ body section p{
         display: none;
     }
 
-    header ul{
-        /*Display not none*/
+    header ul li{
+        Display: inline-block;
     }
 }

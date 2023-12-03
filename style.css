@@ -16,8 +16,29 @@ header ul li{
     display: none;
 }
 
+.profile{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+body section{
+    border-style: groove;
+    border-radius: 5px;
+}
+
+body section ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+body section ul li{
+    margin-left: 10px;
+}
+
 body div section img, body div section p{
-    width: 75%;
+    width: 100%;
     display: flex;
     margin: auto;
 }
@@ -26,14 +47,8 @@ body div section img, body div section p{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-}
-
-.main section img, .main section p{
+    width: 100%;
     margin: auto;
-}
-
-.main section p{
-    margin-top: 5px;
 }
 
 @media screen and (min-width: 900px){
